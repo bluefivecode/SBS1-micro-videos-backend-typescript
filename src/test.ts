@@ -1,3 +1,3 @@
 class Test{
-    private a : string = "a";
+    private a: string = 'a';
 }
