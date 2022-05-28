@@ -8,22 +8,22 @@ export type CategoryProperties = {
 
 export class Category{
 
-    constructor(public readonly pros: CategoryProperties){}
+    constructor(public readonly props: CategoryProperties){}
 
     get name(): string{
-        return this.pros.name;
+        return this.props.name;
     }
 
     get description(): string | undefined{
-        return this.pros.description;
+        return this.props.description;
     }
 
     get is_active(): boolean | undefined{
-        return this.pros.is_active; 
+        return this.props.is_active; 
     }
 
     get created_at(): Date | undefined{
-        return this.pros.created_at;
+        return this.props.created_at;
     }
 }
 
