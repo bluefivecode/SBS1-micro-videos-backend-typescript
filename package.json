@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "ts-node": "ts-node",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "clean:tsc" : "rm -rf tsconfig.tsbuildinfo"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "@types/node": "^14.14.31",
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "tail": "^2.2.4"
   }
 }
