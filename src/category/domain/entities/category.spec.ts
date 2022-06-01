@@ -8,10 +8,10 @@ describe('Category Test', () => {
             name: 'Movie',
             description: 'some description',
             is_active: true,
-            created_at
+            created_at,
         });
 
-        expect(category.props).toMatchObject({
+        expect(category.props).toStrictEqual({
             name: 'Movie',
             description: 'some description',
             is_active: true,
