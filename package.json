@@ -6,7 +6,8 @@
   "scripts": {
     "ts-node": "ts-node",
     "tsc": "tsc",
-    "clean:tsc": "rm -rf tsconfig.tsbuildinfo"
+    "clean:tsc": "rm -rf tsconfig.tsbuildinfo",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,11 @@
   },
   "homepage": "https://github.com/bluefivecode/SBS1-micro-videos-backend-typescript#readme",
   "devDependencies": {
+    "@swc/core": "^1.2.196",
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^27.5.1",
     "@types/node": "^14.14.31",
+    "jest": "^28.1.0",
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2"
   },
